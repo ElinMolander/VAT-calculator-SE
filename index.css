@@ -67,7 +67,7 @@ input{
     height: 590px;
     text-align: center;
     border-radius: 5px;
-    
+    margin-top: 10px;
 }
 
 img{
@@ -154,3 +154,7 @@ h6{
     margin-top: 20px;
 }
 
+#copy-allBtn:active{
+    color:#ffffff;
+    background-color: #369e74;
+}
