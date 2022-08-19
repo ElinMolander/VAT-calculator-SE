@@ -74,19 +74,19 @@ function calculateExklusive(vat){
 }
 
 copyInklusiveBtn.addEventListener("click", function(){
-    navigator.clipboard.writeText(inklusiveInput.value)
+    navigator.clipboard.writeText(inklusiveInput.value.replace(".",","))
 })
 
 copyExlusiveBtn.addEventListener("click", function(){
-    navigator.clipboard.writeText(exklusiveInput.value)
+    navigator.clipboard.writeText(exklusiveInput.value.replace(".",","))
 })
 
 copyMomssummaBtn.addEventListener("click",function(){
-    navigator.clipboard.writeText(momsDisplay.textContent)
+    navigator.clipboard.writeText(momsDisplay.textContent.replace(".",","))
 })
 
 copyAllBtn.addEventListener("click", function(){
-    let values = inklusiveInput.value + " " + exklusiveInput.value + " " + momsDisplay.textContent
+    let values = inklusiveInput.value.replace(".",",") + " " + exklusiveInput.value.replace(".",",") + " " + momsDisplay.textContent.replace(".",",")
     navigator.clipboard.writeText(values)
 })
 
