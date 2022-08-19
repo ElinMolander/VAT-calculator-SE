@@ -1,0 +1,156 @@
+/* Layout */
+
+body,html{
+    background: #ffffff;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width:  550px;
+}
+
+.divider-section{
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+div{
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background-color: #52DBA5;
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+}
+
+#moms-display{
+    color: #52DBA5;
+    width: 150px;
+    height: 30px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    background-color:rgba(82, 219, 165, 0.3);
+    padding-left: 2px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.backgroud{
+    background-color: #52DBA5;
+    width: 550px; 
+    height: 590px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+img{
+    width: 20px;
+    width: 20px;
+}
+
+/* Typo */
+
+p{
+    color:#52DBA5;
+    margin: 0;
+    padding-top:10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h1{
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 14px;
+    padding: 10px;
+}
+
+h6{
+    color: white;
+    font-size: 10px;
+    margin-top: 40px;
+}
+
+/* Buttons */
+
+.momsBtn{
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #52DBA5;
+    width: 120px;
+    height: 80px;
+    margin: 20px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.active{
+    color: #52DBA5;
+    background-color: white;
+}
+
+.copyBtn{
+    color: white;
+    border-radius: 5px;
+    border: none;
+    background-color: #52DBA5;
+    width: 30px;
+    height: 30px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+.copyBtn:active{
+    background-color: #369e74;
+}
+
+#copy-allBtn{
+    color: #52DBA5;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+

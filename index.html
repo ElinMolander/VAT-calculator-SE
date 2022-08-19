@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title> Momsuträknaren</title>
+    <link rel="stylesheet" href="index.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <section class="backgroud">
+        <header>
+            <button class="momsBtn active" id="moms25">25%</button>
+            <button class="momsBtn"id="moms12">12%</button>
+            <button class="momsBtn"id="moms6">6%</button>
+        </header>
+            
+    
+        <section class="divider-section">
+                <p>Inklusive moms</p>
+                <div>
+                    <input type="number" id="inklusive-Input"value="0.00">
+                    <span id="copyInklusiveBtn" class= "copyBtn" > <img src="iconLight.png" alt="copy button"></span>
+                </div>
+        </section>
+        <section class="divider-section">
+                <p>Exklusive moms</p>
+                <div>
+                    <input type="number" id="exlusive-Input" value="0.00"> 
+                    <span id="copyExlusiveBtn" class= "copyBtn" > <img src="iconLight.png" alt="copy button"></span>
+                </div>
+        </section>
+        <section class="divider-section">
+                <p>Momssumma</p>
+                <div>
+                    <span id="moms-display"></span>
+                    <span id="copyMomssummaBtn" class= "copyBtn" > <img src="iconLight.png" alt="copy button"></span>
+                </div>
+        </section>
+        <section id="copy-allBtn" class= "copyBtn" >
+                <h4>Copy all</h4>
+                <img src="darkIcon.png" alt="copy button">
+        </section>
+         <footer>
+            <h6>Av: <a href="https://elinmolander.com/">Elin Molander</a> 2022</h6>
+        </footer>
+    </section> 
+
+<script src="index.js"></script>
+</body>
+</html>
