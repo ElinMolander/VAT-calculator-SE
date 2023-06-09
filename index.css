@@ -1,6 +1,6 @@
 /* Layout */
 
-body,html{
+body,html {
     background: #ffffff;
     margin: 0;
     font-family: 'Inter', sans-serif;
@@ -13,7 +13,7 @@ body,html{
     min-width:  550px;
 }
 
-.divider-section{
+.divider-section {
     background-color: white;
     width: 500px;
     height: 100px;
@@ -25,7 +25,7 @@ body,html{
     margin-top: 20px;
 }
 
-div{
+div {
     width: 500px;
     height: 100px;
     margin-bottom: 20px;
@@ -34,7 +34,7 @@ div{
     align-items: center;
 }
 
-input{
+input {
     background-color: #52DBA5;
     color: white;
     font-weight: 600;
@@ -46,7 +46,7 @@ input{
     height: 30px;
 }
 
-#moms-display{
+#moms-display {
     color: #52DBA5;
     width: 150px;
     height: 30px;
@@ -61,7 +61,7 @@ input{
     align-items: center;
 }
 
-.backgroud{
+.backgroud {
     background-color: #52DBA5;
     width: 550px; 
     height: 590px;
@@ -70,14 +70,14 @@ input{
     margin-top: 10px;
 }
 
-img{
+img {
     width: 20px;
     width: 20px;
 }
 
 /* Typo */
 
-p{
+p {
     color:#52DBA5;
     margin: 0;
     padding-top:10px;
@@ -85,18 +85,18 @@ p{
     font-weight: 700;
 }
 
-h1{
+h1 {
     color: white;
     font-size: 28px;
     font-weight: 800;
 }
 
-h4{
+h4 {
     font-size: 14px;
     padding: 10px;
 }
 
-h6{
+h6 {
     color: white;
     font-size: 10px;
     margin-top: 40px;
@@ -104,7 +104,7 @@ h6{
 
 /* Buttons */
 
-.momsBtn{
+.momsBtn {
     color: white;
     border-radius: 5px;
     border: 1px solid white;
@@ -116,12 +116,12 @@ h6{
     font-size: 30px;
 }
 
-.active{
+.active {
     color: #52DBA5;
     background-color: white;
 }
 
-.copyBtn{
+.copyBtn {
     color: white;
     border-radius: 5px;
     border: none;
@@ -134,11 +134,11 @@ h6{
     align-items: center;
     margin: 10px 10px;
 }
-.copyBtn:active{
+.copyBtn:active {
     background-color: #369e74;
 }
 
-#copy-allBtn{
+#copy-allBtn {
     color: #52DBA5;
     border-radius: 5px;
     border: none;
@@ -154,7 +154,7 @@ h6{
     margin-top: 20px;
 }
 
-#copy-allBtn:active{
+#copy-allBtn:active {
     color:#ffffff;
     background-color: #369e74;
 }

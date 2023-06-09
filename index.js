@@ -40,7 +40,6 @@ function setNewVAT(event){
     activeBtn.classList.remove("active")
     activeBtn = event.currentTarget
     event.currentTarget.classList.add("active")
-
     activeVAT = activeBtn.vat
     recalculateFields()
 }
